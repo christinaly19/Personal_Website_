@@ -1,0 +1,343 @@
+h1{
+    align-items: center;
+    font-size: 4vw !important;
+    background: hsla(263, 42%, 65%, 1);
+
+    background: linear-gradient(90deg, hsla(263, 42%, 65%, 1) 0%, hsla(319, 77%, 86%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(263, 42%, 65%, 1) 0%, hsla(319, 77%, 86%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(263, 42%, 65%, 1) 0%, hsla(319, 77%, 86%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9D80CB", endColorstr="#F7C2E6", GradientType=1 );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.header_container{
+  margin-left: 6.4rem;
+  margin-top: 6rem;
+  width: 50vw
+
+}
+h2 {
+    font-style: italic;
+    font-size: 1.5vw !important;
+    margin-top: 0.6rem;
+    color: #2A2046;
+
+}
+p1 {
+    color: 	#ECD4E7;
+    font-size: 1.4vw;
+    line-height: 1.75em;
+}
+
+.slide-in-fwd-center {
+	-webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #f9c5d1; }
+  }
+  
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+
+  }
+  
+  .chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+  
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+  
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+  
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+  }
+  
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+  
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+  
+  @keyframes move {
+    25% {
+      opacity: 1;
+  
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+  
+  .text {
+    display: block;
+    font-size: 15px;
+    color: #ECD4E7;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .85;
+    animation: pulse 2s linear alternate infinite;
+  }
+  
+  @keyframes pulse {
+    to {
+      opacity: 1;
+    }
+  }
+
+
+html, body {
+    overflow-x:hidden;
+    width: 100%;
+    height:100%;
+
+  }
+
+.header_section_padding{
+  float: left;
+}
+
+.profile_picture{
+  width: 30vw;
+  height: 60vh;
+  float: right;
+  position: relative;
+  margin-top: 7rem;
+  right: 6.2rem;
+  border: 2.5px dashed rgba(253, 237, 241, 0.5)
+}
+
+
+/**
+ * ----------------------------------------
+ * animation shadow-drop-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .header_container{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    width: auto;
+  }
+
+  h2{
+    font-size: 2vw !important;
+  }
+
+  p1{
+    font-size: 2vw
+  }
+
+.profile_picture {
+  align-content: center !important;
+  position: relative;
+  right: 25vw;
+  height: 50vh !important;
+  width:50vw;
+}
+}
+
+@media screen and (max-width: 942px) {
+
+  .header_container{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: auto;
+    margin-right: 2rem;
+  }
+
+
+
+.profile_picture {
+  align-content: center;
+  height:50vh !important;
+  width:40vw;
+  position: relative;
+  top: -3rem;
+}
+
+
+  h1{
+    font-size: 5vw !important; 
+  }
+
+  h2{
+    font-size: 2.5vw !important;
+  }
+
+  p1{
+    font-size: 1rem;
+    flex:3
+  }
+  }
+
+
+  @media screen and (max-width: 915px) {
+
+    .header_container{
+      margin-left: 2rem;
+      margin-top: 2rem;
+      width: auto;
+      margin-right: 2rem;
+    }
+  
+  
+  
+  .profile_picture {
+    align-content: center;
+    height:30vh !important;
+    width:50vw;
+    position: relative;
+    top: -2rem;
+  }
+  
+  
+    h1{
+      font-size: 5vw !important; 
+    }
+  
+    h2{
+      font-size: 3vw !important;
+    }
+  
+    p1{
+      font-size: 1rem;
+    }
+    }
+
+@media screen and (max-width: 530px) {
+  .header_container{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: auto;
+  }
+
+
+
+.profile_picture {
+  align-content: center;
+  height: 30vh !important;
+  width: 60vw;
+  position: relative;
+  right: 4.8rem;
+  top: -4rem;
+}
+
+p1{ 
+  font-size: 0.9rem !important;
+}
+
+
+
+
+}

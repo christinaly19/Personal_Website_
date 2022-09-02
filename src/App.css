@@ -1,38 +1,69 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding:0 !important; /*something wrong with navbar padding ???*/
+  margin: 0;
+}
+
+body {
+  background: hsla(256, 45%, 45%, 1);
+
+  background: linear-gradient(315deg, hsla(256, 45%, 45%, 1) 7%, hsla(309, 41%, 73%, 1) 76%, hsla(300, 60%, 85%, 1) 100%);
+  
+  background: -moz-linear-gradient(315deg, hsla(256, 45%, 45%, 1) 7%, hsla(309, 41%, 73%, 1) 76%, hsla(300, 60%, 85%, 1) 100%);
+  
+  background: -webkit-linear-gradient(315deg, hsla(256, 45%, 45%, 1) 7%, hsla(309, 41%, 73%, 1) 76%, hsla(300, 60%, 85%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5A3FA5", endColorstr="#d69ccd", GradientType=1 );
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
 .App {
-  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+background-color: #3B2D62;
+height: 10vh;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar:hover{
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  color: #FDEDF1;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }

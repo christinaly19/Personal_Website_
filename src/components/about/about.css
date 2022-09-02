@@ -1,0 +1,61 @@
+
+.blank_section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8rem;
+}
+
+h3{
+  color:#DBACDD;
+  font-size: 8vh !important;
+  display: flex;
+  justify-content: left !important;
+}
+.facts {
+  float:left; 
+  clear: both;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  float: left; 
+  margin-left: 6.4rem;
+
+}
+
+.facts {
+  margin-left: 6.4rem;
+  position: relative;
+  top: -7rem;
+  margin-right: 6.4rem;
+}
+
+p2{
+  color:#ECD4E7;
+  opacity: 0.8
+}
+
+.about_me_pic {
+  width: 25vw;
+  height: 55vh;
+  float: left;
+  position: relative;
+  top: -1rem;
+}
+
+@media screen and (max-width: 942px) {
+  .about_me_pic{
+    width: 40vw;
+    height: 30vh;
+  }
+
+  .facts{
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+  
+}

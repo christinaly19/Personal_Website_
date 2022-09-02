@@ -1,0 +1,98 @@
+.spacing {
+    margin-left: 6.4rem;
+}
+
+.icon {
+   width: 3rem;
+   top: -2.5rem;
+   right: 5.3rem;
+}
+
+.frame{
+    border-style: dashed;
+    border-color: #845FB3;
+    border-width: 0.15rem !important;
+    border-radius: 10px;
+    width: 10rem;
+    height: 4rem;
+    border-width: thin;
+    padding: 1rem 1rem !important;
+    margin: 1rem;
+    text-align: right !important;
+    
+}
+
+.white {
+    color: #3B2D62;
+    font-size: 1.2rem;
+    letter-spacing: 0.3em;
+    text-align: right !important;
+}
+
+.grid{
+    position: relative;
+    top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame1{
+    border-style: dashed;
+    border-color: #845FB3;
+    border-width: 0.15rem !important;
+    border-radius: 10px;
+    width: 16rem;
+    height: 4rem;
+    border-width: thin;
+    padding: 1rem 1rem !important;
+    margin: 1rem;
+    text-align: right !important;
+    
+}
+.frame3{
+    border-style: dashed;
+    border-color: #845FB3;
+    border-width: 0.15rem !important;
+    border-radius: 10px;
+    width: 11rem;
+    height: 4rem;
+    border-width: thin;
+    padding: 1rem 1rem !important;
+    margin: 1rem;
+    text-align: right !important;
+    
+}
+
+.icon1 {
+    width: 3rem;
+    top: -2.5rem;
+    right: 4.5rem;
+}
+
+.icon2{
+    width: 5rem;
+    top: -2.5rem;
+    right: 9rem;
+}
+
+.icon4{
+    width: 3rem;
+    top: -2.5rem;
+    right: 6rem;
+}
+
+
+.icon5{
+    width: 3rem;
+    top: -2.4rem;
+    right: 10rem;
+}
+
+@media screen and (max-width: 942px) {
+  
+
+    .spacing{
+        flex-wrap: wrap;
+    }
+}

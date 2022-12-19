@@ -23,6 +23,10 @@ h1{
   width: 50vw
 
 }
+
+.mark1{
+  color: #7A2C88;
+}
 h2 {
     font-style: italic;
     font-size: 1.5vw !important;
@@ -31,7 +35,7 @@ h2 {
 
 }
 p1 {
-    color: 	#ECD4E7;
+    color: 	#3B2D62;
     font-size: 1.4vw;
     line-height: 1.75em;
 }
@@ -185,12 +189,12 @@ html, body {
 
 .profile_picture{
   width: 30vw;
-  height: 60vh;
+  height: 55vh;
   float: right;
   position: relative;
   margin-top: 7rem;
   right: 6.2rem;
-  border: 2.5px dashed rgba(253, 237, 241, 0.5)
+  border: 2.5px dashed rgb(186, 148, 212)
 }
 
 

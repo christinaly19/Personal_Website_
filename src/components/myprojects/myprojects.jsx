@@ -13,7 +13,7 @@ const MyProjects = () => {
                 </Zoom>
                 </div>
             
-                 <handwritten class = 'description'> <mark> hover over</mark> any project to learn more! </handwritten>
+                 <handwritten class = 'description'> hover over any project to learn more! </handwritten>
 
             <div className = "boxwrapper">
                 <Fade>

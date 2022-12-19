@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Personal_Website_/static/css/main.230cb8c0.css",
+    "main.js": "/Personal_Website_/static/js/main.71d7ad35.js",
+    "static/js/787.6568e1bc.chunk.js": "/Personal_Website_/static/js/787.6568e1bc.chunk.js",
+    "static/media/christina.jpeg": "/Personal_Website_/static/media/christina.fdb4bace7e17753c93b3.jpeg",
+    "static/media/website.gif": "/Personal_Website_/static/media/website.d564c678bf86501a8f05.gif",
+    "static/media/rocket.gif": "/Personal_Website_/static/media/rocket.63cee8095e8d88e17773.gif",
+    "static/media/comingsoon.gif": "/Personal_Website_/static/media/comingsoon.bb63c0ba5442e2177f4a.gif",
+    "static/media/sketchystudios.gif": "/Personal_Website_/static/media/sketchystudios.54e2c343c533431d0860.gif",
+    "static/media/react.png": "/Personal_Website_/static/media/react.ecc76aee92fa81676dd5.png",
+    "static/media/css.png": "/Personal_Website_/static/media/css.660dead17f70d0dae2f3.png",
+    "static/media/about3.png": "/Personal_Website_/static/media/about3.38c452b9b17a7aacfcc1.png",
+    "static/media/javascript.png": "/Personal_Website_/static/media/javascript.3048f1b04ab8b452e9de.png",
+    "static/media/html.png": "/Personal_Website_/static/media/html.2b639746bc939771fa7b.png",
+    "static/media/python.png": "/Personal_Website_/static/media/python.0ae6db19171fad342128.png",
+    "static/media/figma.png": "/Personal_Website_/static/media/figma.bfc068602ab7850c01a2.png",
+    "static/media/logo.png": "/Personal_Website_/static/media/logo.02ab60c650461a3f7679.png",
+    "static/media/bootstrap.svg": "/Personal_Website_/static/media/bootstrap.d180fe4cd44732fd70b35f650a76b99c.svg",
+    "index.html": "/Personal_Website_/index.html",
+    "main.230cb8c0.css.map": "/Personal_Website_/static/css/main.230cb8c0.css.map",
+    "main.71d7ad35.js.map": "/Personal_Website_/static/js/main.71d7ad35.js.map",
+    "787.6568e1bc.chunk.js.map": "/Personal_Website_/static/js/787.6568e1bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.230cb8c0.css",
+    "static/js/main.71d7ad35.js"
+  ]
+}

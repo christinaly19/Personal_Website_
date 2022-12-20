@@ -25,7 +25,7 @@ const Header = () => {
             <div class="chevron"></div>
             <div class="chevron"></div>
             <div class="chevron"></div>
-            <span class="text"> Scroll Down For About Me</span>
+            <span class="text"> Scroll down to see my projects!</span>
         </div> 
     
 

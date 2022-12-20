@@ -126,7 +126,7 @@ p1 {
     top: 0;
     height: 100%;
     width: 51%;
-    background: #fff;
+    background: #CFA3D9;
   }
   
   .chevron:before {
@@ -162,7 +162,7 @@ p1 {
   .text {
     display: block;
     font-size: 15px;
-    color: #ECD4E7;
+    color: #B390D1;
     text-transform: uppercase;
     white-space: nowrap;
     opacity: .85;
